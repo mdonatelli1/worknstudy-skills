@@ -17,7 +17,7 @@
 
 ### Un exemple personnel commenté ✔️
 
-```react
+```javascript
 import PropTypes from "prop-types";
 
 // Définition du composant PokemonCard
