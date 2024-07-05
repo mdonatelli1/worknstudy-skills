@@ -6,30 +6,46 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'intéret de TypeScript dans l'IDE ❌ / ✔️
-- les types de bases ❌ / ✔️
-- comment et pourquoi étendre une interface ❌ / ✔️
-- les classes et les decorators ❌ / ✔️
+- l'intéret de TypeScript dans l'IDE ✔️
+- les types de bases ✔️
+- comment et pourquoi étendre une interface ✔️
+- les classes et les decorators ✔️
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+```typescript
+// Fonction pour calculer la somme des éléments d'un tableau
+function sommeTableau(tableau) {
+  let somme = 0;
+  for (let i = 0; i < tableau.length; i++) {
+    somme += tableau[i];
+  }
+  return somme;
+}
 
-[lien github](...)
+// Exemple d'utilisation de la fonction
+const nombres = [1, 2, 3, 4, 5];
+const resultat = sommeTableau(nombres);
+console.log("La somme des éléments du tableau est : " + resultat);
+```
 
-Description :
+### Utilisation dans un projet ✔️
 
-### Utilisation en production si applicable❌ / ✔️
+[the-good-corner](https://github.com/lgrignon/the-good-corner)
+
+Description : le-bon-coin.
+
+### Utilisation en production si applicable❌
 
 [lien du projet](...)
 
-Description :
+Description : /
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
 
-Description :
+Description : /
 
 ## 🌐 J'utilise des ressources
 
@@ -42,7 +58,7 @@ Description :
 
 ### Point de blocage ❌ / ✔️
 
-Description:
+Description: /
 
 Plan d'action : (à valider par le formateur)
 
@@ -50,9 +66,9 @@ Plan d'action : (à valider par le formateur)
 - action 2 ❌ / ✔️
 - ...
 
-Résolution :
+Résolution : /
 
 ## 📽️ J'en fais la démonstration
 
-- J'ai ecrit un [tutoriel](...) ❌ / ✔️
-- J'ai fait une [présentation](...) ❌ / ✔️
+- J'ai ecrit un [tutoriel](...) ❌
+- J'ai fait une [présentation](...) ❌
