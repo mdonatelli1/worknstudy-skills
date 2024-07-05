@@ -17,7 +17,7 @@
 
 ```typescript
 // Fonction pour calculer la somme des éléments d'un tableau
-function sommeTableau(tableau) {
+function sommeTableau(tableau: number[]): number {
   let somme = 0;
   for (let i = 0; i < tableau.length; i++) {
     somme += tableau[i];
@@ -26,8 +26,8 @@ function sommeTableau(tableau) {
 }
 
 // Exemple d'utilisation de la fonction
-const nombres = [1, 2, 3, 4, 5];
-const resultat = sommeTableau(nombres);
+const nombres: number[] = [1, 2, 3, 4, 5];
+const resultat: number = sommeTableau(nombres);
 console.log("La somme des éléments du tableau est : " + resultat);
 ```
 
