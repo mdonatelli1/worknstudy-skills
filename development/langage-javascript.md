@@ -6,47 +6,59 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
-- les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
-- les spécifités du mot-clef `this` ❌ / ✔️
+- les `structures` de base du langage ✔️
+- les normes `ecmascript` ✔️
+- l'utilisation de l'`asynchrone` ✔️
+- les spécifités du mot-clef `this` ✔️
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté ✔️
 
 ```javascript
-(e) => mc2;
+// Fonction pour calculer la somme des éléments d'un tableau
+function sommeTableau(tableau) {
+  let somme = 0;
+  for (let i = 0; i < tableau.length; i++) {
+    somme += tableau[i];
+  }
+  return somme;
+}
+
+// Exemple d'utilisation de la fonction
+const nombres = [1, 2, 3, 4, 5];
+const resultat = sommeTableau(nombres);
+console.log("La somme des éléments du tableau est : " + resultat);
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[[crimepasfait](https://github.com/mdonatelli1/crimepasfait)]
 
-Description :
+Description : Histoires cocasses d'enquêtes criminelles.
 
-### J'ai utilisé ce langage en production ❌ / ✔️
+### J'ai utilisé ce langage en production ❌
 
 [lien du projet](...)
 
-Description :
+Description : /
 
-### J'ai utilisé ce langage en environement professionnel ❌ / ✔️
+### J'ai utilisé ce langage en environement professionnel ❌
 
-Description :
+Description : /
 
 ## 🌐 J'utilise des ressources
 
-### Titre
+### JavaScript | MDN
 
-- lien
-- description
+- lien : [[mdn web docs](https://developer.mozilla.org/fr/docs/Web/JavaScript)]
+- description : MDN Web Docs est un projet collaboratif open source qui documente les technologies de plateforme Web, notamment CSS, HTML, JavaScript et les API Web.
 
 ## 🚧 Je franchis les obstacles
 
 ### Point de blocage ❌ / ✔️
 
-Description:
+Description: /
 
 Plan d'action : (à valider par le formateur)
 
@@ -54,10 +66,9 @@ Plan d'action : (à valider par le formateur)
 - action 2 ❌ / ✔️
 - ...
 
-Résolution :
+Résolution : /
 
 ## 📽️ J'en fais la démonstration
 
-- J'ai ecrit un [tutoriel](...) ❌ / ✔️
-- J'ai fait une [présentation](...) ❌ / ✔️
-
+- J'ai ecrit un [tutoriel](...) ❌
+- J'ai fait une [présentation](...) ❌
